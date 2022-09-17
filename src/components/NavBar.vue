@@ -28,7 +28,7 @@
 
       .brand {
         &-title {
-          @apply text-2xl font-bold text-red-600;
+          @apply text-2xl font-bold text-green-600;
         }
       }
 
@@ -36,7 +36,7 @@
         @apply flex gap-2;
 
         &-item {
-          @apply rounded-md bg-yellow-500 px-4 py-2 hover:text-slate-900;
+          @apply rounded-md bg-yellow-400 py-2 px-4 font-bold text-slate-500 hover:text-slate-900;
         }
 
         &-login {
