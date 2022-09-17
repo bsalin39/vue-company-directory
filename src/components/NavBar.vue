@@ -36,15 +36,15 @@
         @apply flex gap-2;
 
         &-item {
-          @apply hover: rounded-md bg-yellow-500 px-4 py-2 hover:text-slate-900;
+          @apply rounded-md bg-yellow-500 px-4 py-2 hover:text-slate-900;
         }
 
         &-login {
-          @apply hover: rounded-md bg-blue-500 bg-blue-700 px-4 py-2 text-red-100;
+          @apply rounded-md bg-blue-500 px-4 py-2 text-red-100;
         }
 
         &-logout {
-          @apply hover: mx-2 rounded-md bg-gray-500 bg-gray-700 px-4 py-2 text-red-100;
+          @apply mx-2 rounded-md bg-gray-500 px-4 py-2 text-red-100;
         }
       }
     }
