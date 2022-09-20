@@ -2,6 +2,7 @@
   import { ref } from 'vue'
   const pages = ref(7)
   const activePage = ref(1)
+
   const prevPage = () => {
     if (activePage.value > 1) {
       activePage.value--
