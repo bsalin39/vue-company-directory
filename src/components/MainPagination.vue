@@ -2,7 +2,6 @@
   import useAPI from '@/composables/useAPI'
 
   const { activePage, pages, getEmployees } = useAPI()
-
   const prevPage = async () => {
     if (activePage.value > 1) {
       activePage.value--
@@ -36,6 +35,7 @@
     <button class="action" :disabled="activePage === pages" @click="nextPage">Next</button>
   </div>
 </template>
+
 <style lang="postcss" scoped>
   .pagination {
     @apply flex justify-center gap-4;

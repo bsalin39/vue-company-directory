@@ -2,7 +2,9 @@
   import { ref } from 'vue'
   import { faker } from '@faker-js/faker'
   import useAPI from '@/composables/useAPI'
+
   const { getDepartment } = useAPI()
+
   const selectCard = () => {
     console.log(`${props.employee.name} selected`)
   }
@@ -40,6 +42,7 @@
     </div>
   </div>
 </template>
+
 <style scoped lang="postcss">
   .card {
     @apply cursor-pointer overflow-hidden rounded-md bg-slate-100 p-8 shadow-md transition-transform duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-slate-900;
